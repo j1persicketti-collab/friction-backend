@@ -2,9 +2,9 @@
   "name": "friction-backend",
   "version": "1.0.0",
   "description": "Friction app content API — daily AI-generated puzzles, trivia, mindfulness",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "node src/index.js",
+   "main": "index.js",
+    "scripts": {
+    "start": "node index.js",
     "dev": "nodemon src/index.js",
     "generate": "node src/generators/generateDaily.js"
   },
