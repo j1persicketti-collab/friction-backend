@@ -72,7 +72,6 @@ app.get('/terms', (req, res) => {
 <p style="margin-top:48px;color:#888;font-size:13px">© 2026 Justin Persicketti. All rights reserved.</p>
 </body></html>`);
 });
-});
 
 app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
